@@ -1,0 +1,7 @@
+Speedup-efficiency experiment by course definition
+Parameters: n=500000, dim=20, k=20, max_iter=100, tol=1e-4, seed=42
+Columns: mode,n,dim,k,threads,time,iterations,inertia,distance_calculations,skipped_points,pruning_rate
+serial,500000,20,20,1,6.597249600,100,6772740963.244875,0,0,0.000000
+parallel,500000,20,20,8,1.000967800,100,6772740963.244866,0,0,0.000000
+optimized,500000,20,20,1,1.082307500,100,6772740963.244874,55675900,48216205,0.964324
+optimized,500000,20,20,8,0.390762800,100,6772740963.244866,55675900,48216205,0.964324
