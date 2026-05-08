@@ -1,0 +1,6 @@
+Large scale K-means experiment
+Parameters: n=500000, dim=10, k=5, max_iter=100, tol=1e-4
+Columns: mode,n,dim,k,threads,time,iterations,inertia,distance_calculations,skipped_points,pruning_rate
+serial,500000,10,5,1,1.519775700,100,2333468186.129767,0,0,0.000000
+parallel,500000,10,5,4,0.591553600,100,2333468186.129786,0,0,0.000000
+optimized,500000,10,5,4,0.213770300,100,2333468186.129786,10069615,48986077,0.979722

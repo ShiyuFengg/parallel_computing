@@ -1,0 +1,14 @@
+# Build outputs
+*.o
+*.obj
+*.exe
+parallel_kmeans
+
+# Generated experiment CSV files
+results/result.csv
+
+# Editor/system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
